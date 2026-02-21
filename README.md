@@ -1,4 +1,4 @@
-# CreatingVectorDB_FAISS
+# CreatingVectorDB_FAISS and ChromaDB
 Extract PDF file data and to create a vector DataBase using **FAISS**
 
 ## Summary
