@@ -1,5 +1,5 @@
 # CreatingVectorDB_FAISS
-Using a PDF file we will extract data and will create a vector DataBase using **FAISS**
+Extract PDF file data and to create a vector DataBase using **FAISS**
 
 ## Summary
 A Vector Database stores data as embeddings (vectors) instead of normal rows/columns
