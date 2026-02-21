@@ -33,4 +33,31 @@ User Query → Embedding → Similarity Search → Return Top Matches
 10. import FAISS
     - create vector database using faiss
 11. perform similar search with Query and customize results using top K
+
+
+# CHROMA DB
+
+When working with huge documents (thousands or millions of chunks) in ChromaDB, giving proper IDs is very important for:
+
+Avoiding duplicates
+
+Updating specific chunks
+
+Tracking document sources
+
+Deleting specific documents
+
+Production-scale RAG systems
+
+# Why IDs Matter in Large Documents
+
+## In ChromaDB:
+
+Each vector must have a unique ID
+
+If you reuse an ID → it overwrites existing data
+
+For huge documents → you need structured ID strategy
+
+
     
