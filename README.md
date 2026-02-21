@@ -5,7 +5,7 @@ Extract PDF file data and to create a vector DataBase using **FAISS**
 A Vector Database stores data as embeddings (vectors) instead of normal rows/columns
 
 ## Code
-Text → Embedding Model → Vector → Store in Vector DB \n
+Text → Embedding Model → Vector → Store in Vector DB ----
 User Query → Embedding → Similarity Search → Return Top Matches
 
 ## How it Works
