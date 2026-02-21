@@ -21,16 +21,16 @@ User Query → Embedding → Similarity Search → Return Top Matches
 
 1. install faiss
 2. install pypdf
-   Pypdf is used to extract the data from pdf file
+   - Pypdf is used to extract the data from pdf file
 3. import pandas and numpy
 4. import PdfReader from pypdf
 5. define file path and extract data
 6. install and import sent_tokenize from nltk
-   for chunking paragraphs to sentences
+   - for chunking paragraphs to sentences
 8. import SentenceTransformer
-   Load embedding model to convert text to vector
+   - Load embedding model to convert text to vector
 9. print shape of vector embeddings
 10. import FAISS
-    create vector database using faiss
+    - create vector database using faiss
 11. perform similar search with Query and customize results using top K
     
