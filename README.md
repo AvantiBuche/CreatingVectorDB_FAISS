@@ -145,23 +145,17 @@ PostgreSQL + Vector Search + AI modules combined
 Data → (Optional Auto-Embedding) → Stored as Object + Vector
 Query → Vectorized → Similarity Search → Results
 
-App
-   ↓
- 
-      Weaviate
-                  ↳
-   
-                     Object Storage
-                                    ↳
-   
-                                       Vector Index (HNSW) 
-                                                            ↳
-   
-                                                               Hybrid Search Engine
-                                                                                    ↳
-         
-                                                                                       AI Modules
-
+      App
+         ↓
+            Weaviate
+                     ↳
+                        Object Storage
+                                       ↳
+                                          Vector Index (HNSW) 
+                                                               ↳
+                                                                  Hybrid Search Engine
+                                                                                       ↳
+                                                                                          AI Modules
 ### Steps to create Weaviate DB
 
 Step 1: Run Weaviate
