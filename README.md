@@ -146,21 +146,21 @@ Data → (Optional Auto-Embedding) → Stored as Object + Vector
 Query → Vectorized → Similarity Search → Results
 
 App
- ↓
+   ↓
  
-Weaviate
-   ↳
+      Weaviate
+                  ↳
    
-   Object Storage
-   ↳
+                     Object Storage
+                                    ↳
    
-   Vector Index (HNSW) 
-   ↳
+                                       Vector Index (HNSW) 
+                                                            ↳
    
-   Hybrid Search Engine
-   ↳
-   
-   AI Modules
+                                                               Hybrid Search Engine
+                                                                                    ↳
+         
+                                                                                       AI Modules
 
 ### Steps to create Weaviate DB
 
