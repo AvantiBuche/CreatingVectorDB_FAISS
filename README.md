@@ -1,4 +1,4 @@
-# CreatingVectorDB FAISS, Chroma, Pinecone, Weaviate
+# Creating Vector DB FAISS, Chroma, Pinecone, Weaviate
 
 ## Summary
 A Vector Database stores data as embeddings (vectors) instead of normal rows/columns
